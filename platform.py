@@ -15,7 +15,7 @@
 from platformio.managers.platform import PlatformBase
 
 
-class Espressif8266Cpp14Platform(PlatformBase):
+class Espressif8266cpp14Platform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not variables.get("pioframework"):
